@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    background: #E5E5E5;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+
+   
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 43px;
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+.nav-list li a{
+    color: #264B1D;
+    font-size: 18px;
+}
+.main-first-content{
+    
+}
+h1{
+    font-size: 80px;
+line-height: 100px;
+color: #264B1D;
+text-align:left;
+width: 1269px;
+margin: 128px 0 136px;
+}
+
+.first-foto{
+    padding: 0 20px;
+}
+.first-foto img{
+    width: 100%;
+}
+h2{
+    width: 1319px;
+    font-size: 80px;
+line-height: 100px;
+color: #264B1D;
+margin: 84px 0 56px;
+}
+.btn{
+    border: 2px solid #264B1D;
+border-radius: 3px;
+padding: 11px 17px 10px;
+color: #264B1D;
+margin-bottom: 100px;
+
+}
+.second-foto{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+}
+
+
+   
+.text{
+    font-size: 38px;
+line-height: 44px;
+color: #264B1D;
+margin-bottom: 45px;
+}
+.third-foto{
+    display: flex;
+    gap: 202px;
+    margin: 90px 0 90px;
+    align-items: center;
+}
+.second-content{
+    display: block;
+    margin: 0 20px;
+  
+}
+
+.content-wrapper{
+    display: block;
+    background: #264B1D;
+    border-radius: 16px;
+    padding: 84px 159px 110px 60px;
+}
+
+h3{
+ 
+font-size: 80px;
+color: #EBF1EB;
+}
+.content-wrapper p{
+    font-size: 26px;
+    color: #EBF1EB;
+    margin-top: 45px;
+}
+
+
+.footer{
+    display: flex;
+    gap: 511px;
+}
+
+.rightfoot{
+    display: flex;
+    gap: 181px;
+    margin-right:60px ;
+    margin-bottom: 101px;
+}
+.rightfoot ul li a{
+    font-size: 18px;
+    color: #264B1D;
+}
+
+.second-ul{
+    white-space: nowrap;
+}
